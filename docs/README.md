@@ -74,7 +74,7 @@ We welcome contributions from the community! To contribute:
 1. **Fork** the repo.
 2. Create a **feature branch**.
 3. Submit a **pull request**.
-4. Follow our [CONTRIBUTING.md](docs/CONTRIBUTING.md) guide.
+4. Follow our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 ## 🔗 License
 This project is licensed under the **MIT License**. See [LICENSE](/LICENSE) for details.
