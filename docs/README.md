@@ -2,7 +2,7 @@
 
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-%2300C853.svg?style=flat&logo=android&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
-![Build](https://github.com/yourusername/ComposeX/workflows/Build/badge.svg)
+![Build](https://github.com/AlbertoDroid/ComposeX/workflows/Build/badge.svg)
 
 ## 🚀 Introduction
 **ComposeX** is an open-source **Jetpack Compose UI Components Library** designed to provide developers with **high-quality, customizable UI components** for Android apps.
@@ -77,7 +77,7 @@ We welcome contributions from the community! To contribute:
 4. Follow our [CONTRIBUTING.md](docs/CONTRIBUTING.md) guide.
 
 ## 🔗 License
-This project is licensed under the **MIT License**. See [LICENSE](LICENSE) for details.
+This project is licensed under the **MIT License**. See [LICENSE](/LICENSE) for details.
 
 ---
 
