@@ -13,7 +13,7 @@ Thank you for considering contributing to **ComposeX**! We appreciate your suppo
    ```
 3. Add the main repository as an upstream:
    ```sh
-   git remote add upstream https://github.com/originalowner/ComposeX.git
+   git remote add upstream https://github.com/albertodroid/ComposeX.git
    ```
 
 ### **2. Create a Feature Branch**
@@ -62,7 +62,7 @@ Thank you for considering contributing to **ComposeX**! We appreciate your suppo
 ❌ Submit large, unfocused PRs.
 
 ## 🔥 Issues & Discussions
-- Report bugs using [GitHub Issues](https://github.com/originalowner/ComposeX/issues).
+- Report bugs using [GitHub Issues](https://github.com/albertodroid/ComposeX/issues).
 - Suggest new components or improvements via discussions.
 - Feel free to ask questions in issues or PR comments.
 
