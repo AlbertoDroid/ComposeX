@@ -109,7 +109,7 @@ fun TypographyPreview() {
 @Composable
 fun ShapesPreview() {
     Column {
-        Text("🔳 Shape Styles", style = MaterialTheme.typography.titleMedium)
+        Text("🔳 Shape Styles", style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface)
         Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceAround) {
             Box(
                 modifier = Modifier
