@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ComposeX"
 include(":app")
-include(":library")
+include(":composex")
