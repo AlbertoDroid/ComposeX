@@ -29,7 +29,7 @@ Then add the dependency in your module's `build.gradle.kts`:
 
 ```kotlin
 dependencies {
-    implementation("com.github.yourusername:ComposeX:0.1.0")
+    implementation("com.github.albertodroid:ComposeX:0.1.0")
 }
 ```
 
