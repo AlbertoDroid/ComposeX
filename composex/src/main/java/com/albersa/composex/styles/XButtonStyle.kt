@@ -26,6 +26,12 @@ data class XButtonStyle(
         )
 
         @Composable
+        fun tertiary() = XButtonStyle(
+            backgroundColor = MaterialTheme.colorScheme.tertiaryContainer,
+            textColor = MaterialTheme.colorScheme.onTertiary
+        )
+
+        @Composable
         fun outlined() = XButtonStyle(
             backgroundColor = Color.Transparent,
             textColor = MaterialTheme.colorScheme.primary,
