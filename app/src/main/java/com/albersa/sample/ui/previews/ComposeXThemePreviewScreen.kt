@@ -17,7 +17,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.albersa.sample.ui.theme.ComposeXTheme
+import com.albersa.composex.theme.ComposeXTheme
 
 @Composable
 fun ThemePreviewScreen() {
@@ -142,7 +142,7 @@ fun ShapesPreview() {
 @Preview(showBackground = true)
 @Composable
 fun LightThemePreview() {
-    ComposeXTheme(darkTheme = false) {
+    ComposeXTheme (darkTheme = false, dynamicColor = false) {
         ThemePreviewScreen()
     }
 }
@@ -150,7 +150,7 @@ fun LightThemePreview() {
 @Preview(showBackground = true)
 @Composable
 fun DarkThemePreview() {
-    ComposeXTheme(darkTheme = true) {
+    ComposeXTheme(darkTheme = true, dynamicColor = false) {
         ThemePreviewScreen()
     }
 }
