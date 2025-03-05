@@ -10,20 +10,61 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext
 
-private val LightColorScheme = lightColorScheme(
+val LightColorScheme = lightColorScheme(
     primary = PrimaryColor,
+    onPrimary = OnPrimaryColor,
+    primaryContainer = PrimaryContainerColor,
+    onPrimaryContainer = OnPrimaryContainerColor,
+
     secondary = SecondaryColor,
+    onSecondary = OnSecondaryColor,
+    secondaryContainer = SecondaryContainerColor,
+    onSecondaryContainer = OnSecondaryContainerColor,
+
+    tertiary = TertiaryColor,
+    onTertiary = OnTertiaryColor,
+    tertiaryContainer = TertiaryContainerColor,
+    onTertiaryContainer = OnTertiaryContainerColor,
+
     background = BackgroundColor,
+    onBackground = OnBackgroundColor,
+
     surface = SurfaceColor,
-    error = ErrorColor
+    onSurface = OnSurfaceColor,
+
+    error = ErrorColor,
+    onError = OnErrorColor,
+
+    outline = OutlineColor
 )
+
 
 private val DarkColorScheme = darkColorScheme(
     primary = DarkPrimaryColor,
+    onPrimary = DarkOnPrimaryColor,
+    primaryContainer = DarkPrimaryContainerColor,
+    onPrimaryContainer = DarkOnPrimaryContainerColor,
+
     secondary = DarkSecondaryColor,
+    onSecondary = DarkOnSecondaryColor,
+    secondaryContainer = DarkSecondaryContainerColor,
+    onSecondaryContainer = DarkOnSecondaryContainerColor,
+
+    tertiary = DarkTertiaryColor,
+    onTertiary = DarkOnTertiaryColor,
+    tertiaryContainer = DarkTertiaryContainerColor,
+    onTertiaryContainer = DarkOnTertiaryContainerColor,
+
     background = DarkBackgroundColor,
+    onBackground = DarkOnBackgroundColor,
+
     surface = DarkSurfaceColor,
-    error = DarkErrorColor
+    onSurface = DarkOnSurfaceColor,
+
+    error = DarkErrorColor,
+    onError = DarkOnErrorColor,
+
+    outline = DarkOutlineColor
 )
 
 @Composable
